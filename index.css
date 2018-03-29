@@ -13,7 +13,7 @@ html{
 
 
 	body {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Montserrat Subrayada', sans-serif;
 		font-size: 1em;
 		margin: 0px;
 		padding: 0px;
@@ -811,6 +811,7 @@ html{
 		padding-left: 0px;
 		padding-right: 0px;
 		border: none;
+		font-size: 14px
 	}
 	.dots {
 		margin-right: 14px;
