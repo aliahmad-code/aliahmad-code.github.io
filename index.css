@@ -475,13 +475,13 @@ html{
 	a, a:visited, a:hover, a:active {
   		color: inherit;
 	}
-	.gradient-border {
+	a > .rainbow-border {
   --borderWidth: 3px;
-  background: #1D1F20;
+  background: #fff;
   position: relative;
   border-radius: var(--borderWidth);
 }
-.gradient-border:after {
+a > .rainbow-border:after {
   content: '';
   position: absolute;
   top: calc(-1 * var(--borderWidth));
