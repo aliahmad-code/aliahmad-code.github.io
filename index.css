@@ -424,6 +424,9 @@ html{
 	#cap2{
 		content: url(https://i.imgur.com/trFEYYj.jpg);
 	}
+	#cap3{
+		content: url(https://i.imgur.com/0ZxbMAi.jpg);
+	}
 	.article-card {
 		display: flex;
 		flex-direction: column;
@@ -735,6 +738,9 @@ a > .rainbow-border2:after {
 	#cap2{
 		content: url(https://i.imgur.com/V7GP7QA.png);
 	}
+	#cap3{
+		content: url(https://i.imgur.com/E8qkcyQ.png);
+	}
 }
 
 /*-----------------------------
@@ -943,6 +949,9 @@ a > .rainbow-border2:after {
 	}
 	#cap2{
 		content: url(https://i.imgur.com/vCxYNe2.png);
+	}
+	#cap3{
+		content: url(https://i.imgur.com/AHZlKVp.png);
 	}
 	#projects {
 		margin-top: 0px;
