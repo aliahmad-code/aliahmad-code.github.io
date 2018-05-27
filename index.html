@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+	 crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
@@ -23,7 +25,6 @@
 	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
@@ -54,9 +55,9 @@
 			<h4>&</h4>
 			<h1>Web & mobile <span id="heading-wrap">developer.</span></h1>
 			<p class="icons">
-				<a href="https://github.com/aliahmad-code" target="blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/ali-ahmad-86042b155/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-				<a href="mailto:ahmad.aligohar@icloud.com"><i  id="email" class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="https://github.com/aliahmad-code" class="icon" target="blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/ali-ahmad-86042b155/" class="icon" target="blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+				<a href="mailto:ahmad.aligohar@icloud.com" class="icon"><i  id="email" class="fa fa-envelope" aria-hidden="true"></i></a>
 			</p>
 		</div>
 		<div class="overlay overlay-right">
@@ -121,32 +122,61 @@
 		<h2 id="project-title"><span class="underline">Pro</span>jects</h2>
 		<div id="project-tiles">
 
-			<a href="http://epic-albattani-61c20d.netlify.com/">
-				<div class="article-card rainbow-border2">
-					<img src="https://i.imgur.com/NjZzMCh.jpg" alt="For the love of food">
-					<div class="article">
+		
+				<div class="article-card major">
+					<img class="cap-img" id="cap1"    alt="For the love of food">
+					<div class="article major-article">
 						<span class="subtitle">Project</span>
-						<span class="title">React Recipe Sharing App</span>
+						<span class="title">For the love of food</span>
 						<div class="dash">&nbsp;&nbsp;&nbsp;</div>
+						<span class="description">Recipe sharing platform which allows users to create, share, and search recipes based on tags, titles, and portfolios.</span>
 						<span class="description">Tech: React, React Router, Redux, Redux Forms, Node.js, Express, MongoDB, RESTful APIs, Passport, SASS</span>
+						<span class="description links">
+							<a  target="blank" href="https://fortheloveoffood.netlify.com/">
+								<i class="fas fa-desktop" aria-hidden="true"></i>
+								<span>Visit Site</span>
+							</a>
+							<a target="blank" href="https://github.com/aliahmad-code/nomnom-client">
+								<i class="fab fa-github" aria-hidden="true"></i>
+							<span>Client Repo</span>
+						</a>
+							<a  target="blank" href="https://github.com/aliahmad-code/omnom-server">
+								<i class="fab fa-github" aria-hidden="true"></i>
+							<span>Server Repo</span>
+						</a>
+						</span>
 					</div>
 				</div>
-			</a>
 
-				<a href="https://safer.netlify.com/">
-					<div class="article-card rainbow-border">
-						<img src="https://i.imgur.com/trFEYYj.jpg" alt="Safer">
-						<div class="article">
-							<span class="subtitle">Project</span>
-							<span class="title">React Safer Map App</span>
-							<div class="dash">&nbsp;&nbsp;&nbsp;</div>
-							<span class="description">Community driven incident report tool. Tech: React, Redux, Node.js, Express, MongoDB, RESTful APIs, Passport</span>
-						</div>
+				<div class="article-card major">
+					<img class="cap-img" id="cap2" alt="Safer App">
+					<div class="article major-article">
+						<span class="subtitle">Project</span>
+						<span class="title">React Safer Map App</span>
+						<div class="dash">&nbsp;&nbsp;&nbsp;</div>
+						<span class="description">Community tool for viewing and creating local incident reports on a traverasble map. Built web and native versions.</span>
+						<span class="description">Tech: React, React Native, Redux, Google Maps API, Node.js, Express, MongoDB, RESTful APIs, Passport</span>
+						<span class="description links">
+							<a target="blank" href="https://safer.netlify.com/">
+								<i class="fas fa-desktop" aria-hidden="true"></i>
+								<span>Visit Site</span>
+							</a>
+							<a target="blank" href="https://github.com/thinkful-ei18/maajac-client">
+								<i class="fab fa-github" aria-hidden="true"></i>
+								<span>Client Repo</span>
+							</a>
+							<a target="blank" href="https://github.com/thinkful-ei18/majaac-server">
+								<i class="fab fa-github" aria-hidden="true"></i>
+								<span>Server Repo</span>
+							</a>
+						</span>
 					</div>
-				</a>
+				</div>
+	
+
 
 			<a href="http://eager-swanson-572a82.netlify.com/">
-				<div class="article-card rainbow-border2">
+				<div class="article-card ">
 					<img src="https://i.imgur.com/0ZxbMAi.jpg" alt="Translink Chatbot">
 					<div class="article">
 						<span class="subtitle">Project</span>
@@ -158,7 +188,7 @@
 			</a>
 
 			<a href="https://fathomless-thicket-31955.herokuapp.com/">
-				<div class="article-card rainbow-border">
+				<div class="article-card ">
 					<img src="https://i.imgur.com/nBxpFGh.png" alt="React Map GL">
 					<div class="article">
 						<span class="subtitle">Project</span>

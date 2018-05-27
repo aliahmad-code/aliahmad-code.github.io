@@ -281,7 +281,7 @@ html{
 		}
 	}
 
-	i:hover {
+	.icon:hover {
 		opacity: 0.5;
 		z-index: 1;
 	}
@@ -418,6 +418,12 @@ html{
 		height: 245px;
 		width: 280px;
 	}
+	#cap1{
+		content: url(https://i.imgur.com/NjZzMCh.jpg);
+	}
+	#cap2{
+		content: url(https://i.imgur.com/trFEYYj.jpg);
+	}
 	.article-card {
 		display: flex;
 		flex-direction: column;
@@ -440,6 +446,10 @@ html{
 		width: 280px;
 		color: #303030;
 		align-items: center;
+	}
+	.major-article {
+		height: 445px;
+		justify-content: center;
 	}
 	.subtitle {
 		margin: 18px 0px 7px 0px;
@@ -468,6 +478,19 @@ html{
 		line-height: 20px;
 		width: 70%;
 		font-family: 'Open Sans', sans-serif;
+	}
+	.description a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.description a:hover {
+		opacity: 0.5;
 	}
 	a {
 		text-decoration: none;
@@ -674,7 +697,7 @@ a > .rainbow-border2:after {
 		font-size: 18px;
 	}
 
-}
+
 /*-----------------------------
 	PROJECT LAYOUT
 -----------------------------*/
@@ -688,6 +711,31 @@ a > .rainbow-border2:after {
 		margin-left: 0;
 	}
 
+}
+@media screen and (min-width: 800px){
+
+	.major {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		width: 560px;
+	}
+
+	.major-article {
+		flex-direction: column;
+	}
+
+	.cap-img {
+		height: 445px;
+		width: 280px;
+	}
+	#cap1 {
+		content: url(https://i.imgur.com/CBCDLR2.png);
+	}
+	#cap2{
+		content: url(https://i.imgur.com/V7GP7QA.png);
+	}
+}
 
 /*-----------------------------
 	DESKTOP LAYOUT
@@ -875,6 +923,26 @@ a > .rainbow-border2:after {
 	#project-title {
 		margin-bottom: 70px;
 		
+	}
+	.major {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		width: 840px;
+	}
+	.major-article {
+		width: 420px;
+
+	}
+	.cap-img {
+		height: 445px;
+		width: 420px;
+	}
+	#cap1 {
+		content: url(https://i.imgur.com/i1ZmXJS.png);
+	}
+	#cap2{
+		content: url(https://i.imgur.com/vCxYNe2.png);
 	}
 	#projects {
 		margin-top: 0px;
