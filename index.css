@@ -930,6 +930,9 @@ a > .rainbow-border2:after {
 		margin-bottom: 70px;
 		
 	}
+	/*
+	priority project section
+	*/
 	.major {
 		flex-direction: row;
 		align-items: center;
