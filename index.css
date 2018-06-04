@@ -30,6 +30,7 @@ html{
 
 	nav {
 		display: flex;
+		align-items: center;
 		flex-direction: column;
 		background-color: #fff;
 		margin: 0px;
@@ -40,7 +41,7 @@ html{
         width: 100%;
         opacity: 0.9;
 	}
-	ul{
+	.ul{
 		display: flex;
 		flex-direction: column;
 		list-style: none;
@@ -59,7 +60,6 @@ html{
 	 	font-weight: 900;
 	 	opacity: 100;
 	 	transition: 0.15s;
-	 	margin-bottom: 10px;
 	 	
 	}
 	li:hover {
@@ -79,6 +79,9 @@ html{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
 	}
 
 /*-----------------------------
@@ -393,6 +396,20 @@ html{
 		color: #34495E;
 		border-radius: 100px;
 	}
+
+	.skill {
+  color: #49b7f1;
+	}
+
+	/* @keyframes neon2 {
+		from {
+			text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+		}
+		to {
+			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+		}
+	} */
+
 	
 	
 
@@ -428,6 +445,7 @@ html{
 		content: url(https://i.imgur.com/0ZxbMAi.jpg);
 	}
 	.article-card {
+		border:1px solid #303030;
 		display: flex;
 		flex-direction: column;
 		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -437,6 +455,16 @@ html{
 	.article-card:hover {
 	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	}
+	
+	.shadow1:hover {
+		box-shadow: 0 14px 28px #89d5fc, 0 10px 10px rgba(0,0,0,0.22);
+	}
+	.shadow2:hover {
+		box-shadow: 0 14px 28px #68C3A3, 0 10px 10px rgba(0,0,0,0.22);
+	}
+	.shadow3:hover {
+		box-shadow: 0 14px 28px #ec84ff, 0 10px 10px rgba(0,0,0,0.22);
+	}
 	.image {
 		height: 245px;
 		width: 280px;
@@ -445,7 +473,7 @@ html{
 	.article {
 		display: flex;
 		flex-direction: column;
-		height: 245px;
+		height: 270px;
 		width: 280px;
 		color: #303030;
 		align-items: center;
@@ -477,7 +505,7 @@ html{
 	.description {
 		margin: 7px 0px 18px 0px;
 		text-align: center; 
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 20px;
 		width: 70%;
 		font-family: 'Open Sans', sans-serif;
@@ -574,7 +602,7 @@ a > .rainbow-border2:after {
 /*-----------------------------
 	NAVBAR 
 -----------------------------*/
-	ul {
+	.ul {
 		flex-direction: row;
 		justify-content: center;
 		width: 100%
@@ -757,7 +785,7 @@ a > .rainbow-border2:after {
 		height: 60px;
 		justify-content: center;
 	}
-	ul {
+	.ul {
 		justify-content: space-between;
 		width: 70%;
 	}
@@ -767,6 +795,8 @@ a > .rainbow-border2:after {
 	}
 	li, #name {
 		margin: 10px;
+		margin-bottom: 0px;
+		margin-top: 0px;
 		padding: 20px;
 	}
 	#name {
